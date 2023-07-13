@@ -9,6 +9,51 @@ body {
     color: #fff;
     padding: 10px;
     text-align: center;
+    position: relative;
+  }
+  
+  .back-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .back-link:hover {
+    text-decoration: underline;
+  }
+  
+  nav {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    background-color: #ddd;
   }
   
   main {
@@ -36,8 +81,8 @@ body {
   }
   
   button {
-    padding: 20px 40px; /* Updated padding values */
-    font-size: 18px; /* Updated font size */
+    padding: 20px 40px;
+    font-size: 18px;
     border: none;
     border-radius: 5px;
     background-color: #333;

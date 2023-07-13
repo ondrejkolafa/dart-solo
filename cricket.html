@@ -1,20 +1,34 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 
 <head>
-
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="">
-    <script src="dart-solo.js"></script>
-
-	<title>Dart Solo</title>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <header>
+        <a href="index.html" class="back-link">&#8592;</a>
+        <h1>Cricket</h1>
+    </header>
 
-    <h1>Cricket</h1>
+    <main>
+        <div class="counter">
+            <label for="num-hits">Number of Hits:</label>
+            <div id="num-hits">0</div>
+        </div>
+
+        <div class="buttons">
+            <button id="hitBtn">Hit</button>
+            <button id="missBtn">Miss</button>
+        </div>
+    </main>
+
+    <audio id="dingSound" src="click.mp3"></audio>
+
+    <script src="cricket.js"></script>
 
 </body>
 
